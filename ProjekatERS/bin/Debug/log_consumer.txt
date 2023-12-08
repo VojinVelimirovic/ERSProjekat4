@@ -1,0 +1,1 @@
+Redni_broj, Vreme, Kolicina_prijema

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLogSunce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogSunce>
+    <Vreme>2023-12-07T19:35:44.4369041+01:00</Vreme>
+    <Snaga>84</Snaga>
+  </LogSunce>
+  <LogSunce>
+    <Vreme>2023-12-07T19:35:49.4053494+01:00</Vreme>
+    <Snaga>83</Snaga>
+  </LogSunce>
+  <LogSunce>
+    <Vreme>2023-12-07T19:35:54.4054911+01:00</Vreme>
+    <Snaga>82</Snaga>
+  </LogSunce>
+  <LogSunce>
+    <Vreme>2023-12-07T19:35:59.4057656+01:00</Vreme>
+    <Snaga>85</Snaga>
+  </LogSunce>
+  <LogSunce>
+    <Vreme>2023-12-07T19:36:04.4069496+01:00</Vreme>
+    <Snaga>82</Snaga>
+  </LogSunce>
+</ArrayOfLogSunce>
