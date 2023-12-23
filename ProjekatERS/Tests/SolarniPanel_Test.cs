@@ -11,6 +11,7 @@ namespace ProjekatERS.Tests
     [TestFixture]
     class SolarniPanel_Test
     {
+        //jednostavni testovi metoda
         public Generators.SolarniPanel solarniPanel;
 
         [SetUp]

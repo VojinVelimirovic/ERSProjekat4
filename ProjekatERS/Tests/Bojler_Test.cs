@@ -10,6 +10,7 @@ namespace ProjekatERS.Tests
     [TestFixture]
     class Bojler_Test
     {
+        //jednostavni testovi metoda
         public Consumer.Bojler bojler;
 
         [SetUp]

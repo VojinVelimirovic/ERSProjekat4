@@ -35,6 +35,7 @@ namespace ProjekatERS.Consumer
         internal Sporet Sporet { get => sporet; set => sporet = value; }
         internal Bojler Bojler { get => bojler; set => bojler = value; }
 
+        //funkcija koja se poziva svakom promenom potrosnje
         public void Logovanje(){
             brojacPrijema++;
             Console.WriteLine("Primljena energija. Trenutna potrosnja po casu iznosi {0} kWh\n", potrosnja);
@@ -44,6 +45,8 @@ namespace ProjekatERS.Consumer
                 sw.WriteLine(linija);
             }
         }
+
+        //user interface
         public void Trosi()
         {
             while (true)

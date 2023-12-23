@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace ProjekatERS
 {
     interface IUredjaj
-    {   
+    {
+        //ove metode menjaju stanje uredjaja, svi uredjaji moraju da ih imaju
         bool Ukljuci();
         bool Iskljuci();
     }

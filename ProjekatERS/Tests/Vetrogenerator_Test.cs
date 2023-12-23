@@ -10,6 +10,7 @@ namespace ProjekatERS.Tests
     [TestFixture]
     class Vetrogenerator_Test
     {
+        //jednostavni testovi metoda
         public Generators.Vetrogenerator vetrogenerator;
 
         [SetUp]

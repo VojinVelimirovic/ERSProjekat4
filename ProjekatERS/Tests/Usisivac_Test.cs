@@ -10,6 +10,7 @@ namespace ProjekatERS.Tests
     [TestFixture]
     class Usisivac_Test
     {
+        //jednostavni testovi metoda
         private Consumer.Usisivac usisivac;
 
         [SetUp]

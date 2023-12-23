@@ -10,6 +10,7 @@ namespace ProjekatERS.Tests
     [TestFixture]
     class Sporet_Test
     {
+        //jednostavni testovi metoda
         private Consumer.Sporet sporet;
 
         [SetUp]

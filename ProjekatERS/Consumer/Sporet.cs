@@ -19,7 +19,7 @@ namespace ProjekatERS.Consumer
             this.potrosnjaPoCasu = 10;
             this.ukljuceno = false;
         }
-
+   
         public bool Ukljuci()
         {
             if (ukljuceno == false)
