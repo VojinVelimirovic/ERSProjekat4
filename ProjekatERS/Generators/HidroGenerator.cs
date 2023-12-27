@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjekatERS.Generators
 {
+    //dodavanje HidroGeneratora
     class HidroGenerator
     {
     }

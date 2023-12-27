@@ -59,6 +59,7 @@
     <Compile Include="Consumer\IUredjaj.cs" />
     <Compile Include="Consumer\Sporet.cs" />
     <Compile Include="Consumer\Usisivac.cs" />
+    <Compile Include="Generators\HidroGenerator.cs" />
     <Compile Include="Generators\IGenerator.cs" />
     <Compile Include="Generators\SolarniPanel.cs" />
     <Compile Include="Generators\Vetrogenerator.cs" />
