@@ -23,8 +23,8 @@ namespace ProjekatERS.Generators
         string ime;
         readonly object zakljucaj = new object();
         List<LogVetar> logovi = new List<LogVetar>();
-        string path;
-        static Random random = new Random();
+        readonly string path;
+        readonly static Random random = new Random();
         readonly Timer timer;
 
         public int Snaga { get => snaga; set => snaga = value; }
