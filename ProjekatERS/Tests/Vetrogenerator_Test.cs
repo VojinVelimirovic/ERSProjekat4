@@ -20,7 +20,7 @@ namespace ProjekatERS.Tests
         }
 
         [Test]
-        public void Snaga_PromenaSnage_JeUGranicama_Test()
+        public void Vetrogenerator_PromenaSnage_JeUGranicama_Test()
         {
             vetrogenerator.PromenaSnage();
             Assert.That(vetrogenerator.Snaga, Is.GreaterThanOrEqualTo(0).And.LessThanOrEqualTo(100));

@@ -15,8 +15,6 @@ namespace ProjekatERS
             Generators.SolarniPanel solar1 = new Generators.SolarniPanel("solarni1");
             Generators.SolarniPanel solar2 = new Generators.SolarniPanel("solarni2");
             Generators.Vetrogenerator vetar1 = new Generators.Vetrogenerator("vetar1");
-            Generators.Vetrogenerator vetar2 = new Generators.Vetrogenerator("vetar2");
-            Generators.HidroGenerator hidroGenerator = new Generators.HidroGenerator("hidro");
             potrosac.Trosi();
         }
     }
