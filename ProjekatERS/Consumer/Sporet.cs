@@ -16,7 +16,7 @@ namespace ProjekatERS.Consumer
 
         public Sporet()
         {
-            this.potrosnjaPoCasu = 10;
+            this.potrosnjaPoCasu = 40;
             this.ukljuceno = false;
         }
    
