@@ -1,5 +1,1 @@
 Redni_broj, Vreme, Snage_generatora, Proizvodnja_elektrane, Kolicina_poslata, Cena
-Slanje 1, 1/6/2024 8:01:06 PM, 29W 96W 37W, 91W, 84 kwh, 2520RSD
-Slanje 2, 1/6/2024 8:01:21 PM, 30W 100W 34W, 10W, 16 kwh, 480RSD
-Slanje 3, 1/6/2024 8:01:36 PM, 28W 100W 37W, 10W, 16 kwh, 480RSD
-Slanje 4, 1/6/2024 8:01:51 PM, 25W 100W 42W, 10W, 16 kwh, 480RSD

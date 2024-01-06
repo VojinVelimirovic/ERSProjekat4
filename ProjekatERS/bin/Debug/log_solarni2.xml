@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLogSunce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LogSunce>
-    <Vreme>2024-01-06T20:01:06.6989452+01:00</Vreme>
-    <Snaga>96</Snaga>
+    <Vreme>2024-01-06T20:42:44.6977016+01:00</Vreme>
+    <Snaga>90</Snaga>
   </LogSunce>
   <LogSunce>
-    <Vreme>2024-01-06T20:01:21.6936871+01:00</Vreme>
-    <Snaga>100</Snaga>
+    <Vreme>2024-01-06T20:42:59.6901063+01:00</Vreme>
+    <Snaga>85</Snaga>
   </LogSunce>
   <LogSunce>
-    <Vreme>2024-01-06T20:01:36.7087499+01:00</Vreme>
-    <Snaga>100</Snaga>
+    <Vreme>2024-01-06T20:43:14.6994011+01:00</Vreme>
+    <Snaga>88</Snaga>
   </LogSunce>
   <LogSunce>
-    <Vreme>2024-01-06T20:01:51.7123713+01:00</Vreme>
-    <Snaga>100</Snaga>
+    <Vreme>2024-01-06T20:43:29.704762+01:00</Vreme>
+    <Snaga>86</Snaga>
   </LogSunce>
 </ArrayOfLogSunce>

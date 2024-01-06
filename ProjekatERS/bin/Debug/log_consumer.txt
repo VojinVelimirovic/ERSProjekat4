@@ -1,6 +1,7 @@
 Redni_broj, Vreme, Kolicina_prijema
-Zahtev 2, 1/6/2024 8:00:52 PM, 40 kwh
-Zahtev 3, 1/6/2024 8:00:53 PM, 68 kwh
-Zahtev 4, 1/6/2024 8:00:53 PM, 84 kwh
-Zahtev 5, 1/6/2024 8:01:20 PM, 44 kwh
-Zahtev 6, 1/6/2024 8:01:20 PM, 16 kwh
+Zahtev 1, 1/6/2024 8:46:47 PM, 40 kwh
+Zahtev 2, 1/6/2024 8:46:47 PM, 68 kwh
+Zahtev 3, 1/6/2024 8:46:48 PM, 84 kwh
+Zahtev 4, 1/6/2024 8:46:48 PM, 44 kwh
+Zahtev 5, 1/6/2024 8:46:49 PM, 16 kwh
+Zahtev 6, 1/6/2024 8:46:50 PM, 0 kwh

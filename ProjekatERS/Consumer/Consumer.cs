@@ -22,7 +22,6 @@ namespace ProjekatERS.Consumer
 
         public void Logovanje(int brojacPrijema, int potrosnja)
         {
-            brojacPrijema++;
             Console.WriteLine("Trenutna potrosnja po casu iznosi {0} kWh\n", potrosnja);
             string linija = "Zahtev " + brojacPrijema + ", " + DateTime.Now + ", " + potrosnja + " kwh";
             using (StreamWriter sw = new StreamWriter(path, true))
