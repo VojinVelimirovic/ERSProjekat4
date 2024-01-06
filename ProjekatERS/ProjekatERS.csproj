@@ -59,14 +59,17 @@
     <Compile Include="Consumer\IUredjaj.cs" />
     <Compile Include="Consumer\Sporet.cs" />
     <Compile Include="Consumer\Usisivac.cs" />
-    <Compile Include="Generators\HidroGenerator.cs" />
+    <Compile Include="DistributionCenter\DistributivniCentar.cs" />
+    <Compile Include="DistributionCenter\ICentar.cs" />
     <Compile Include="Generators\IGenerator.cs" />
     <Compile Include="Generators\SolarniPanel.cs" />
     <Compile Include="Generators\Vetrogenerator.cs" />
+    <Compile Include="PowerPlant\Hidroelektrana.cs" />
+    <Compile Include="PowerPlant\IElektrana.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\Bojler_Test.cs" />
-    <Compile Include="Tests\HidroGenerator_Test.cs" />
+    <Compile Include="Tests\HidroElektrana_Test.cs" />
     <Compile Include="Tests\SolarniPanel_Test.cs" />
     <Compile Include="Tests\Sporet_Test.cs" />
     <Compile Include="Tests\Usisivac_Test.cs" />
@@ -76,10 +79,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DistributionCenter\" />
-    <Folder Include="PowerPlant\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

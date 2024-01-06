@@ -21,7 +21,7 @@ namespace ProjekatERS.Tests
         }
 
         [Test]
-        public void Snaga_PromenaSnage_JeUGranicama_Test()
+        public void SolarniPanel_PromenaSnage_JeUGranicama_Test()
         {
             solarniPanel.PromenaSnage();
             Assert.That(solarniPanel.Snaga, Is.GreaterThanOrEqualTo(0).And.LessThanOrEqualTo(100));

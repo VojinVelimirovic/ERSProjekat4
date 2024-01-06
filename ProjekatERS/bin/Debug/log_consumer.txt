@@ -1,1 +1,7 @@
 Redni_broj, Vreme, Kolicina_prijema
+Prijem 1, 1/6/2024 11:41:19 AM, 40 kwh
+Prijem 2, 1/6/2024 11:41:19 AM, 68 kwh
+Prijem 3, 1/6/2024 11:41:20 AM, 84 kwh
+Prijem 4, 1/6/2024 11:41:51 AM, 44 kwh
+Prijem 5, 1/6/2024 11:41:51 AM, 16 kwh
+Prijem 6, 1/6/2024 11:42:10 AM, 0 kwh

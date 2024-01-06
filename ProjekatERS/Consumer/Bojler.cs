@@ -16,7 +16,7 @@ namespace ProjekatERS.Consumer
 
         public Bojler()
         {
-            this.potrosnjaPoCasu = 4;
+            this.potrosnjaPoCasu = 16;
             this.ukljuceno = false;
         }
 

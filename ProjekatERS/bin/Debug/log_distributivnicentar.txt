@@ -1,0 +1,4 @@
+Redni_broj, Vreme, Snage_generatora, Proizvodnja_elektrane, Kolicina_poslata, Cena
+Prijem 1, 1/6/2024 11:41:33 AM, 19W 57W 16W, 95W, 84 kwh, 2520RSD
+Prijem 2, 1/6/2024 11:41:48 AM, 17W 62W 19W, 94W, 84 kwh, 2520RSD
+Prijem 3, 1/6/2024 11:42:03 AM, 21W 64W 22W, 14W, 16 kwh, 480RSD

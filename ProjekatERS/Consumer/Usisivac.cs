@@ -16,7 +16,7 @@ namespace ProjekatERS.Consumer
 
         public Usisivac()
         {
-            this.potrosnjaPoCasu = 7;
+            this.potrosnjaPoCasu = 28;
             this.ukljuceno = false;
         }
 
