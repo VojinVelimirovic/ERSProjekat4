@@ -37,10 +37,7 @@ namespace ProjekatERS.PowerPlant
             {
                 Proizvodnja = procenat;
                 Loguj();
-<<<<<<< HEAD
-=======
                 Console.WriteLine("Procenat proizvodnje promenjen na {0}.", Proizvodnja);
->>>>>>> f4a69fd03d0d7a7f265b9182a692b621dbe595ad
             }
             else {
                 Console.WriteLine("Procenat proizvodnje mora biti izmedju 0 i 100 posto!");

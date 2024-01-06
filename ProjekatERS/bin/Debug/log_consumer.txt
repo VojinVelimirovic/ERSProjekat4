@@ -1,22 +1,6 @@
 Redni_broj, Vreme, Kolicina_prijema
-<<<<<<< HEAD
-Prijem 1, 1/6/2024 11:41:19 AM, 40 kwh
-Prijem 2, 1/6/2024 11:41:19 AM, 68 kwh
-Prijem 3, 1/6/2024 11:41:20 AM, 84 kwh
-Prijem 4, 1/6/2024 11:41:51 AM, 44 kwh
-Prijem 5, 1/6/2024 11:41:51 AM, 16 kwh
-Prijem 6, 1/6/2024 11:42:10 AM, 0 kwh
-=======
-Prijem 1, 1/2/2024 6:08:56 PM, 40 kwh
-Prijem 2, 1/2/2024 6:08:58 PM, 68 kwh
-Prijem 3, 1/2/2024 6:08:59 PM, 84 kwh
-Prijem 4, 1/2/2024 6:09:02 PM, 68 kwh
-Prijem 5, 1/2/2024 6:09:03 PM, 40 kwh
-Prijem 6, 1/2/2024 6:09:04 PM, 0 kwh
-Prijem 7, 1/2/2024 6:09:04 PM, 28 kwh
-Prijem 8, 1/2/2024 6:09:04 PM, 44 kwh
-Prijem 9, 1/2/2024 6:09:05 PM, 84 kwh
-Prijem 10, 1/2/2024 6:09:05 PM, 44 kwh
-Prijem 11, 1/2/2024 6:09:06 PM, 16 kwh
-Prijem 12, 1/2/2024 6:09:06 PM, 0 kwh
->>>>>>> f4a69fd03d0d7a7f265b9182a692b621dbe595ad
+Zahrev 1, 1/6/2024 1:03:03 PM, 40 kwh
+Zahrev 2, 1/6/2024 1:03:04 PM, 68 kwh
+Zahrev 3, 1/6/2024 1:03:04 PM, 84 kwh
+Zahrev 4, 1/6/2024 1:03:25 PM, 44 kwh
+Zahrev 5, 1/6/2024 1:03:25 PM, 16 kwh

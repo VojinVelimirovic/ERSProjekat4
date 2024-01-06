@@ -39,7 +39,7 @@ namespace ProjekatERS.Consumer
         public void Logovanje(){
             brojacPrijema++;
             Console.WriteLine("Primljena energija. Trenutna potrosnja po casu iznosi {0} kWh\n", potrosnja);
-            string linija = "Zahrev " +brojacPrijema+ ", " +DateTime.Now + ", " + potrosnja+" kwh";
+            string linija = "Zahtev " +brojacPrijema+ ", " +DateTime.Now + ", " + potrosnja+" kwh";
             using (StreamWriter sw = new StreamWriter(path, true))
             {
                 sw.WriteLine(linija);
