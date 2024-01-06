@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLogVetar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LogVetar>
+<<<<<<< HEAD
     <Vreme>2024-01-06T11:41:33.5311207+01:00</Vreme>
     <Snaga>16</Snaga>
   </LogVetar>
@@ -15,5 +16,13 @@
   <LogVetar>
     <Vreme>2024-01-06T11:42:18.5344514+01:00</Vreme>
     <Snaga>27</Snaga>
+=======
+    <Vreme>2024-01-02T18:08:59.5459714+01:00</Vreme>
+    <Snaga>92</Snaga>
+  </LogVetar>
+  <LogVetar>
+    <Vreme>2024-01-02T18:09:04.5496498+01:00</Vreme>
+    <Snaga>93</Snaga>
+>>>>>>> f4a69fd03d0d7a7f265b9182a692b621dbe595ad
   </LogVetar>
 </ArrayOfLogVetar>
