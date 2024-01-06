@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLogElektrana xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LogElektrana>
-    <Vreme>2024-01-06T13:03:16.805091+01:00</Vreme>
-    <Proizvodnja>94</Proizvodnja>
+    <Vreme>2024-01-06T20:01:06.696945+01:00</Vreme>
+    <Proizvodnja>91</Proizvodnja>
   </LogElektrana>
   <LogElektrana>
-    <Vreme>2024-01-06T13:03:31.797693+01:00</Vreme>
-    <Proizvodnja>14</Proizvodnja>
+    <Vreme>2024-01-06T20:01:21.6936871+01:00</Vreme>
+    <Proizvodnja>10</Proizvodnja>
+  </LogElektrana>
+  <LogElektrana>
+    <Vreme>2024-01-06T20:01:36.7087499+01:00</Vreme>
+    <Proizvodnja>10</Proizvodnja>
+  </LogElektrana>
+  <LogElektrana>
+    <Vreme>2024-01-06T20:01:51.7123713+01:00</Vreme>
+    <Proizvodnja>10</Proizvodnja>
   </LogElektrana>
 </ArrayOfLogElektrana>

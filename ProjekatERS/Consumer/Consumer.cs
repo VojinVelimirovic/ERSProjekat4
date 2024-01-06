@@ -7,6 +7,30 @@ using System.IO;
 
 namespace ProjekatERS.Consumer
 {
+    class PotrosnjaLogger
+    {
+        readonly string path;
+
+        public PotrosnjaLogger(string logPath)
+        {
+            this.path = logPath;
+            using (StreamWriter sw = new StreamWriter(path, false))
+            {
+                sw.WriteLine("Redni_broj, Vreme, Kolicina_prijema");
+            }
+        }
+
+        public void Logovanje(int brojacPrijema, int potrosnja)
+        {
+            brojacPrijema++;
+            Console.WriteLine("Trenutna potrosnja po casu iznosi {0} kWh\n", potrosnja);
+            string linija = "Zahtev " + brojacPrijema + ", " + DateTime.Now + ", " + potrosnja + " kwh";
+            using (StreamWriter sw = new StreamWriter(path, true))
+            {
+                sw.WriteLine(linija);
+            }
+        }
+    }
     class Consumer
     {
         readonly string path = "log_consumer.txt";
@@ -15,6 +39,7 @@ namespace ProjekatERS.Consumer
         Bojler bojler;
         int potrosnja;
         int brojacPrijema;
+        PotrosnjaLogger logger;
 
         public Consumer()
         {
@@ -23,10 +48,7 @@ namespace ProjekatERS.Consumer
             this.bojler = new Bojler();
             this.potrosnja = 0;
             this.brojacPrijema = 0;
-            using (StreamWriter sw = new StreamWriter(path, false))
-            {
-                sw.WriteLine("Redni_broj, Vreme, Kolicina_prijema");
-            }
+            logger = new PotrosnjaLogger(path);
         }
 
         public int Potrosnja { get => potrosnja; set => potrosnja = value; }
@@ -34,17 +56,6 @@ namespace ProjekatERS.Consumer
         internal Usisivac Usisivac { get => usisivac; set => usisivac = value; }
         internal Sporet Sporet { get => sporet; set => sporet = value; }
         internal Bojler Bojler { get => bojler; set => bojler = value; }
-
-        //funkcija koja se poziva svakom promenom potrosnje
-        public void Logovanje(){
-            brojacPrijema++;
-            Console.WriteLine("Primljena energija. Trenutna potrosnja po casu iznosi {0} kWh\n", potrosnja);
-            string linija = "Zahtev " +brojacPrijema+ ", " +DateTime.Now + ", " + potrosnja+" kwh";
-            using (StreamWriter sw = new StreamWriter(path, true))
-            {
-                sw.WriteLine(linija);
-            }
-        }
 
         //user interface
         public void Trosi()
@@ -104,7 +115,8 @@ namespace ProjekatERS.Consumer
                     break;
                 }
                 if(odgovorValidan == true) {
-                    Logovanje();
+                    brojacPrijema++;
+                    logger.Logovanje(brojacPrijema, potrosnja);
                 }
             }
         }
