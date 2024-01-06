@@ -36,7 +36,7 @@ namespace ProjekatERS.Generators
             Ime = ime;
             path = $"log_{Ime}.xml";
             Snaga = random.Next(0, 101);
-            timer = new Timer(5000);
+            timer = new Timer(15000);
             timer.Elapsed += (sender, e) => PromenaSnage();
             timer.AutoReset = true;
             timer.Enabled = true;

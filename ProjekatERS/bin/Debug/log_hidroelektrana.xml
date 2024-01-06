@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLogElektrana xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogElektrana>
+    <Vreme>2024-01-06T11:41:33.5301205+01:00</Vreme>
+    <Proizvodnja>95</Proizvodnja>
+  </LogElektrana>
+  <LogElektrana>
+    <Vreme>2024-01-06T11:41:48.531185+01:00</Vreme>
+    <Proizvodnja>94</Proizvodnja>
+  </LogElektrana>
+  <LogElektrana>
+    <Vreme>2024-01-06T11:42:03.5339395+01:00</Vreme>
+    <Proizvodnja>14</Proizvodnja>
+  </LogElektrana>
+</ArrayOfLogElektrana>

@@ -39,7 +39,7 @@ namespace ProjekatERS.Consumer
         public void Logovanje(){
             brojacPrijema++;
             Console.WriteLine("Primljena energija. Trenutna potrosnja po casu iznosi {0} kWh\n", potrosnja);
-            string linija = "Prijem " +brojacPrijema+ ", " +DateTime.Now + ", " + potrosnja+" kwh";
+            string linija = "Zahrev " +brojacPrijema+ ", " +DateTime.Now + ", " + potrosnja+" kwh";
             using (StreamWriter sw = new StreamWriter(path, true))
             {
                 sw.WriteLine(linija);
@@ -53,7 +53,9 @@ namespace ProjekatERS.Consumer
             {
                 bool odgovorValidan = false;
                 string odgovor;
-                Console.WriteLine("1.Ukljuci/Iskljuci Sporet\n2.Ukljuci/Iskljuci Usisivac\n3.Ukljuci/Iskljuci Bojler\nX.Napusti program\n\nUnesite izbor: ");
+                Console.WriteLine("=================================================");
+                Console.WriteLine("MOGUCNOSTI\n\n\t1.Ukljuci/Iskljuci Sporet\n\t2.Ukljuci/Iskljuci Usisivac\n\t3.Ukljuci/Iskljuci Bojler\n\tX.Napusti program\n\nUnesite izbor");
+                Console.WriteLine("=================================================");
                 odgovor = Console.ReadLine();
                 if (odgovor.Equals("1"))
                 {

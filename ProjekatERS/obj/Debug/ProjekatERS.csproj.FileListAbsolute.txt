@@ -51,3 +51,7 @@ C:\Users\Korisnik\Desktop\ers\ProjekatERS\bin\Debug\nunit.framework.legacy.dll
 C:\Users\Korisnik\Desktop\ers\ProjekatERS\bin\Debug\nunit.framework.xml
 C:\Users\Korisnik\Desktop\ers\ProjekatERS\bin\Debug\nunit.framework.legacy.xml
 C:\Users\Korisnik\Desktop\ers\ProjekatERS\obj\Debug\ProjekatERS.csproj.CopyComplete
+<<<<<<< HEAD
+C:\Users\Korisnik\Desktop\ers\ProjekatERS\obj\Debug\ProjekatERS.csproj.AssemblyReference.cache
+=======
+>>>>>>> f4a69fd03d0d7a7f265b9182a692b621dbe595ad

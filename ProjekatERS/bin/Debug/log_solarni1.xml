@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLogSunce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LogSunce>
+<<<<<<< HEAD
+    <Vreme>2024-01-06T11:41:33.5321208+01:00</Vreme>
+    <Snaga>19</Snaga>
+  </LogSunce>
+  <LogSunce>
+    <Vreme>2024-01-06T11:41:48.5305239+01:00</Vreme>
+    <Snaga>17</Snaga>
+  </LogSunce>
+  <LogSunce>
+    <Vreme>2024-01-06T11:42:03.5329107+01:00</Vreme>
+    <Snaga>21</Snaga>
+  </LogSunce>
+  <LogSunce>
+    <Vreme>2024-01-06T11:42:18.5344514+01:00</Vreme>
+    <Snaga>18</Snaga>
+=======
     <Vreme>2024-01-02T18:08:59.5459714+01:00</Vreme>
     <Snaga>0</Snaga>
   </LogSunce>
   <LogSunce>
     <Vreme>2024-01-02T18:09:04.5496498+01:00</Vreme>
     <Snaga>2</Snaga>
+>>>>>>> f4a69fd03d0d7a7f265b9182a692b621dbe595ad
   </LogSunce>
 </ArrayOfLogSunce>

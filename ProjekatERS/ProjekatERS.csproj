@@ -59,6 +59,11 @@
     <Compile Include="Consumer\IUredjaj.cs" />
     <Compile Include="Consumer\Sporet.cs" />
     <Compile Include="Consumer\Usisivac.cs" />
+<<<<<<< HEAD
+    <Compile Include="DistributionCenter\DistributivniCentar.cs" />
+    <Compile Include="DistributionCenter\ICentar.cs" />
+=======
+>>>>>>> f4a69fd03d0d7a7f265b9182a692b621dbe595ad
     <Compile Include="Generators\IGenerator.cs" />
     <Compile Include="Generators\SolarniPanel.cs" />
     <Compile Include="Generators\Vetrogenerator.cs" />
@@ -77,9 +82,13 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup />
+=======
   <ItemGroup>
     <Folder Include="DistributionCenter\" />
   </ItemGroup>
+>>>>>>> f4a69fd03d0d7a7f265b9182a692b621dbe595ad
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
