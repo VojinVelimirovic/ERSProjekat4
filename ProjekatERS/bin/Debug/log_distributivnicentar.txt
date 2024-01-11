@@ -1,1 +1,3 @@
 Redni_broj, Vreme, Snage_generatora, Proizvodnja_elektrane, Kolicina_poslata, Cena
+Slanje 1, 1/11/2024 6:36:41 PM, 34% 84% 35%, 91%, 84 kwh, 2520RSD
+Slanje 2, 1/11/2024 6:36:56 PM, 32% 79% 38%, 58%, 56 kwh, 1680RSD

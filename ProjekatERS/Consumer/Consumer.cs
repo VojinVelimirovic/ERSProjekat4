@@ -64,7 +64,7 @@ namespace ProjekatERS.Consumer
                 bool odgovorValidan = false;
                 string odgovor;
                 Console.WriteLine("=================================================");
-                Console.WriteLine("MOGUCNOSTI\n\n\t1.Ukljuci/Iskljuci Sporet\n\t2.Ukljuci/Iskljuci Usisivac\n\t3.Ukljuci/Iskljuci Bojler\n\tX.Napusti program\n\nUnesite izbor");
+                Console.WriteLine("MOGUCNOSTI\n\n\t1.Ukljuci/Iskljuci Sporet [40 kwh]\n\t2.Ukljuci/Iskljuci Usisivac [28 kwh]\n\t3.Ukljuci/Iskljuci Bojler [16 kwh]\n\tX.Napusti program\n\nUnesite izbor");
                 Console.WriteLine("=================================================");
                 odgovor = Console.ReadLine();
                 if (odgovor.Equals("1"))
